@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (min-width: 1024px) {
+    .menu-bar::after{
+        position: absolute;
+        content: "";
+        height: 5px;
+        width: 0%;
+        background-color: white;
+        left: 0;
+        bottom: -0px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+.menu-bar:hover::after{
+    width: 100%;
+}
+
+
+}
+
+
+
