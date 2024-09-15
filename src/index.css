@@ -8,7 +8,7 @@
     .menu-bar::after{
         position: absolute;
         content: "";
-        height: 5px;
+        height: 4px;
         width: 0%;
         background-color: white;
         left: 0;
@@ -18,13 +18,37 @@
         -moz-transition: 0.5s;
         -ms-transition: 0.5s;
         -o-transition: 0.5s;
+    }
+    .menu-bar:hover::after{
+    width: 100%;
+    }
+    .banner-after::after{
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 0%;
+        background-color: white;
+        left: 0;
+        top: 0;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
 }
-.menu-bar:hover::after{
+.banner-after:hover::after{
     width: 100%;
 }
-
-
 }
+
+
+
+
+
+
+
+
+
 
 
 
