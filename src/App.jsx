@@ -3,6 +3,7 @@ import AboutUs from "./component/AboutUs"
 import Banner from "./component/Banner"
 import Feature from "./component/Feature"
 import Header from "./component/Header"
+import Testimonial from "./component/Testimonial"
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Banner />
       <AboutUs />
       <Feature />
+      <Testimonial />
     </>
   )
 }

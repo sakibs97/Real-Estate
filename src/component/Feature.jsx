@@ -175,9 +175,6 @@ const Feature = () => {
                             </button>
                         </div>
                     </div>
-
-
-
                 </Slider>
             </div>
         </section>
