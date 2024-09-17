@@ -1,23 +1,21 @@
+import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from "react-router-dom"
+import RootLayout from "./component/layout/RootLayout"
+import Home from "./pages/Home"
+import About from "./pages/About"
 
-import AboutUs from "./component/AboutUs"
-import Banner from "./component/Banner"
-import Feature from "./component/Feature"
-import Footer from "./component/Footer"
-import Header from "./component/Header"
-import Schedule from "./component/Schedule"
-import Testimonial from "./component/Testimonial"
+
+let router = createBrowserRouter(createRoutesFromElements(
+  <Route element={<RootLayout />}>
+    <Route index element={<Home />}></Route>
+    <Route path="/about-us" element={<About />}></Route>
+  </Route>
+))
 
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Banner />
-      <AboutUs />
-      <Feature />
-      <Testimonial />
-      <Schedule />
-      <Footer />
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }

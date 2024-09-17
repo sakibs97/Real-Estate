@@ -5,6 +5,7 @@ import { ImCross } from "react-icons/im";
 import { GoPlus } from "react-icons/go";
 import { RxCross2 } from "react-icons/rx";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     let [show, setShow] = useState(false)
@@ -54,15 +55,15 @@ const Header = () => {
                     <div className={`items-center justify-between lg:static w-full block lg:w-auto md:order-1 absolute lg:z-50 ${show ? "top-0 pt-20 px-4 left-0 bg-blue-500 duration-500 lg:bg-none lg:pt-0" : "left-[-2000px] top-[200]"}`} id="navbar-sticky">
                         <ul className="lg:leading-[50px] leading-8 flex flex-col lg:flex-row mt-4 font-medium md:space-x-8 rtl:space-x-reverse  md:mt-0">
                             <li className="relative">
-                                <a href="#" className="hover:tracking-widest lg:hover:tracking-normal duration-500 menu-bar block py-2 px-3 lg:px-0 text-white font-suse font-medium text-[16px]" aria-current="page">
+                                <Link to="/" className="hover:tracking-widest lg:hover:tracking-normal duration-500 menu-bar block py-2 px-3 lg:px-0 text-white font-suse font-medium text-[16px]" aria-current="page">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li className="relative group">
                                 <div className="flex justify-between items-center">
-                                    <a href="#" className={`hover:tracking-widest lg:hover:tracking-normal duration-500 menu-bar block py-2 px-3 lg:px-0 lg:text-white  font-suse font-medium text-[16px] ${showMyMenu ? "text-red-600" : "text-white"}`} aria-current="page">
+                                    <Link to="/about-us" className={`hover:tracking-widest lg:hover:tracking-normal duration-500 menu-bar block py-2 px-3 lg:px-0 lg:text-white  font-suse font-medium text-[16px] ${showMyMenu ? "text-red-600" : "text-white"}`} aria-current="page">
                                         About
-                                    </a>
+                                    </Link>
                                     <div className="lg:hidden cursor-pointer" onClick={handelMenuShow}>
                                         {showMyMenu ? (
                                             <RxCross2 className="w-6 h-6 text-white" />

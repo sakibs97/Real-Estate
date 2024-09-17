@@ -40,7 +40,7 @@ const Feature = () => {
 
 
     return (
-        <section className="py-10 bg-[rgba(226,226,226,0.58)]">
+        <section className="py-10 bg-[#e2e2e294]">
             <Container>
                 <div className="w-1/2">
                     <h6 className="font-suse font-semibold leading-[50px] tracking-widest uppercase text-lg text-[rgba(12,12,12,0.36)]">Featured projects </h6>
