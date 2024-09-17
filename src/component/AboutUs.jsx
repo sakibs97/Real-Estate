@@ -10,7 +10,7 @@ const AboutUs = () => {
         <section className="my-14">
             <Container className="flex justify-between items-center gap-10">
                 <div className="w-1/2">
-                    <h6 className="font-suse font-semibold leading-[50px] tracking-widest uppercase text-lg text-[rgba(12,12,12,0.36)]">About Us</h6>
+                    <h6 className="font-suse font-semibold leading-[50px] tracking-widest uppercase text-lg text-[#0c0c0c5c]">About Us</h6>
                     <h2 className="font-suse font-bold text-3xl text-[#012464d6] leading-[50px] uppercase mb-5">Redefining your standard of living</h2>
                     <p className="font-suse font-normal text-sm text-[#000] leading-[25px]">Edison Group was founded in 2009 with the aim to enhance aspects of life for people by providing powerful brands, reliable products and a wide range of services. It ventured into the real estate sector in 2015 with its “dream team” dedicated to merge value and innovation in the evolving real estate sector of Bangladesh. Through considerable focus on design, structural dimension, and feasibility in the sense of space and resource conservation; as well as environmental soundness; we deliver you optimum support in residential and commercial accommodation.
                         <br></br>

@@ -2,7 +2,6 @@ import Container from "./Container";
 import Slider from "react-slick";
 import { BsFillBoxSeamFill } from "react-icons/bs";
 import { MdPlayArrow } from "react-icons/md";
-import Luxury from "../assets/banner/Luxury.jpg"
 
 function SampleNextArrow(props) {
     const { style } = props;
@@ -41,10 +40,11 @@ const Banner = () => {
 
     return (
         <section className="relative">
+            {/*----------- Banner Slide Part Start -----------*/}
             <Slider {...settings}>
                 <div className="">
-                    <div className='relative bg-[url("../src/assets/banner/Luxury.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
-                        <div className="absolute inset-0 bg-[rgb(0,0,0,.7)] opacity-100 animate-fadeOut"></div>
+                    <div className='relative bg-[url("../src/assets/banner/Luxury3.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
+                        <div className="absolute inset-0 bg-[rgb(0,0,0,.8)] opacity-100 animate-fadeOut"></div>
                         <div className="">
                             <h2 className="font-suse font-bold lg:text-5xl md:text-4xl text-3xl text-white uppercase absolute left-1/2 transform -translate-x-[70%] bottom-1/2 translate-y-1/2">
                                 Redefining Happiness
@@ -63,7 +63,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="">
-                    <div className='relative bg-[url("../src/assets/banner/Luxury3.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
+                    <div className='relative bg-[url("../src/assets/banner/Luxury.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
                         <div className="absolute inset-0 bg-[rgb(0,0,0,.7)] opacity-100 animate-fadeOut"></div>
                         <div className="">
                             <h2 className="font-suse font-bold text-5xl text-white uppercase absolute left-1/2 transform -translate-x-[70%] bottom-1/2 translate-y-1/2">
@@ -83,7 +83,27 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="">
-                    <div className='relative bg-[url("../src/assets/banner/Luxury.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
+                    <div className='relative bg-[url("../src/assets/banner/Luxury5.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
+                        <div className="absolute inset-0 bg-[rgb(0,0,0,.7)] opacity-100 animate-fadeOut"></div>
+                        <div className="">
+                            <h2 className="font-suse font-bold text-5xl text-white uppercase absolute left-1/2 transform -translate-x-[70%] bottom-1/2 translate-y-1/2">
+                                A visual treat you can never tire of
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div className="">
+                    <div className='relative bg-[url("../src/assets/banner/Luxury6.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
+                        <div className="absolute inset-0 bg-[rgb(0,0,0,.7)] opacity-100 animate-fadeOut"></div>
+                        <div className="">
+                            <h2 className="font-suse font-bold text-5xl text-white uppercase absolute left-1/2 transform -translate-x-[70%] bottom-1/2 translate-y-1/2">
+                                A visual treat you can never tire of
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div className="">
+                    <div className='relative bg-[url("../src/assets/banner/Luxury7.jpg")] bg-cover bg-no-repeat bg-center w-full h-[1000px]'>
                         <div className="absolute inset-0 bg-[rgb(0,0,0,.7)] opacity-100 animate-fadeOut"></div>
                         <div className="">
                             <h2 className="font-suse font-bold text-5xl text-white uppercase absolute left-1/2 transform -translate-x-[70%] bottom-1/2 translate-y-1/2">
@@ -93,7 +113,8 @@ const Banner = () => {
                     </div>
                 </div>
             </Slider>
-
+            {/*----------- Banner Slide Part End -----------*/}
+            {/*----------- Banner Upper Part Start -----------*/}
             <div className="bg-[rgb(0,0,0,0.7)] text-white leading-[50px] absolute left-1/2 transform -translate-x-[50%] bottom-1/4 w-full lg:block hidden">
                 <Container className=''>
                     <div className="flex items-center justify-between w-1/2">
@@ -111,6 +132,7 @@ const Banner = () => {
                     </div>
                 </Container>
             </div>
+            {/*----------- Banner Upper Part End -----------*/}
         </section>
     );
 };

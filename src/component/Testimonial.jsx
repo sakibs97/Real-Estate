@@ -1,6 +1,6 @@
 import Container from "./Container"
-import owner from "../assets/owner/owner.jpg"
-import owner2 from "../assets/owner/owner2.jpg"
+import owner from "../assets/owner/owner.jpeg"
+import owner2 from "../assets/owner/owner2.jpeg"
 import owner4 from "../assets/owner/owner4.jpg"
 import owner5 from "../assets/owner/owner5.jpg"
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";

@@ -1,5 +1,6 @@
 import AboutBanner from "../component/AboutBanner"
 import AboutCompany from "../component/AboutCompany"
+import ChairmanStudy from "../component/ChairmanStudy"
 import Purpose from "../component/Purpose"
 
 
@@ -9,6 +10,7 @@ const About = () => {
             <AboutBanner />
             <AboutCompany />
             <Purpose />
+            <ChairmanStudy />
         </>
     )
 }

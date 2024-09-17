@@ -21,7 +21,7 @@ const Schedule = () => {
             <section className='bg-[url("../src/assets/background/seamless.png")] bg-no-repeat bg-center bg-cover py-20' >
                 <Container className="flex justify-between items-center bg-white shadow-2xl mx-2">
                     <div className="w-[65%]">
-                        <img src={Luxury} alt="Luxury" className="w-full" />
+                        <img src={Luxury} alt="Luxury" className="w-full -scale-x-100" />
                     </div>
                     <div className="w-[35%] mx-10">
                         <h5 className="font-suse font-bold text-3xl leading-[50px] uppercase">Schedule a meeting</h5>
