@@ -21,16 +21,16 @@ export default {
       },
       animation: {
         fadeOut: 'fadeOut 6s ease-out forwards',
-        fadeIn: 'fadeIn 1s ease-in',
+        fadeIn: 'fadeIn 1s ease-in-out',
       },
       keyframes: {
         fadeOut: {
-          '0%': { opacity: '1'},
-          '100%': { opacity: '0'},
+          '0%': { opacity: '1' },
+          '100%': { opacity: '0' },
         },
         fadeIn: {
-          '0%': { opacity: '0'},
-          '100%': { opacity: '1'},
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
       },
     },

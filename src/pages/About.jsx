@@ -2,6 +2,7 @@ import AboutBanner from "../component/AboutBanner"
 import AboutCompany from "../component/AboutCompany"
 import ChairmanStudy from "../component/ChairmanStudy"
 import Purpose from "../component/Purpose"
+import Team from "../component/Team"
 
 
 const About = () => {
@@ -11,6 +12,7 @@ const About = () => {
             <AboutCompany />
             <Purpose />
             <ChairmanStudy />
+            <Team/>
         </>
     )
 }
